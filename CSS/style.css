@@ -16,15 +16,14 @@ body{
     /* border-radius: 10px 10px; */
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
     position: sticky;
     top: 0;
+    z-index: 1;
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -34,13 +33,11 @@ body{
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #f2f2f2;
     color: black;
   }
   
-  /* Add a color to the active/current link */
   .topnav a.active {
     background-color: #f2f2f2;
     color: black;
