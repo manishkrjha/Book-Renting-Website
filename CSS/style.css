@@ -1,0 +1,61 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.black-div{
+    background-color: #333;
+    color: #f2f2f2;
+    padding: 0.8rem;
+    border-radius: 10px 25px;
+}
+
+.white-div{
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 0.5rem;
+    /* border-radius: 10px 10px; */
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  img{
+      opacity: 0.8;
+  }
+
+  .form-div{
+      padding: 1.2px;
+  }
+
+  /* .img-col{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  } */
